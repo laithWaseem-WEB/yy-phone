@@ -1,9 +1,10 @@
 body {
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
-    background-color: 003655;
+    background-color: #003655;
     height: 70px;
     width: 100%;
     margin: 0;
@@ -30,6 +31,71 @@ header img {
 }
 
 .tasafah {
+    margin-top: 17%;
+    width: 80%;
+    height: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #003655;
+    color: white;
+    border-color: #003655;
+    border-style: solid;
+    border-width: 500%;
+    font-size: 195%;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.1s;
+}
+
+.tasafah:active {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    font-size: 150%;
     display: flex;
     justify-content: center;
+    margin-top: 10%;
+}
+
+.landingPageText {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.landingPageText2 {
+    font-size: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.product {
+    background-color: #003655;
+    min-height: 200px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.product img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.product p {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
 }
