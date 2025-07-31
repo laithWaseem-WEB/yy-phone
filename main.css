@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: 003655;
+    height: 70px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+}
+
+.mainCover {
+    width: 90%;
+    border-style: solid;
+    border-width: 3.75px;
+    border-radius: 60px;
+}
+
+.mainCoverE {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.tasafah {
+    display: flex;
+    justify-content: center;
+}
