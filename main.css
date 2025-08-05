@@ -73,10 +73,10 @@ h1 {
 
 .products {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
     gap: 20px;
     padding: 20px;
-    width: 90%;
+    width: 88%;
     margin: 0 auto;
 }
 
@@ -173,9 +173,12 @@ h2 {
 }
 
 .back {
-    position: fixed;
-    left: 15;
-    height: 3.5%;
+    position: absolute;
+    left: 10;
+    height: 20%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 .orderImgE {
@@ -229,3 +232,55 @@ h2 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+.receipt {
+    margin-top: 15%;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 82%;
+    background-color: #767676;
+    color: white;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.receiptI {
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+
+.receiptI2 {
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+
+.line {
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    width: 100%;
+}
+
+.confirmE {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6%;
+    height: 8%;
+}
+
+.confirm {
+    background-color: #003554;
+    color: white;
+    border-style: solid;
+    width: 90%;
+    height: 100%;
+    font-size: 140%;
+    border: none;
+    border-radius: 25px;
+}
+
